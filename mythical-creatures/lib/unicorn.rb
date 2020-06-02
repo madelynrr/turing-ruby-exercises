@@ -12,6 +12,7 @@ class Unicorn
   end
 
   def say(phrase)
+    "**;* #{phrase} **;*"
   end
 
 end
