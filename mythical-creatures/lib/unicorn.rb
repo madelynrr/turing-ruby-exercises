@@ -7,4 +7,7 @@ class Unicorn
     @color = "white"
   end
 
+  def white?
+  end
+
 end
