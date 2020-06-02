@@ -8,6 +8,7 @@ class Unicorn
   end
 
   def white?
+    true
   end
 
 end
