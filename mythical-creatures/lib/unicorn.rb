@@ -11,4 +11,7 @@ class Unicorn
     @color == "white"
   end
 
+  def say
+  end
+
 end
