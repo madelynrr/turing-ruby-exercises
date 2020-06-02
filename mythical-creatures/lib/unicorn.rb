@@ -4,7 +4,7 @@ class Unicorn
 
   def initialize(name_attr, color_attr = "white")
     @name = name_attr
-    @color = "white"
+    @color = color_attr
   end
 
   def white?
