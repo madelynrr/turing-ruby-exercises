@@ -8,4 +8,8 @@ class Dragon
     @rider = rider_attr
   end
 
+  def hungry?
+    
+  end
+
 end
