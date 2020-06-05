@@ -11,4 +11,8 @@ class Vampire
     true
   end
 
+  def drink
+    
+  end
+
 end
