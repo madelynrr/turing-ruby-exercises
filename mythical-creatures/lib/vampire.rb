@@ -7,4 +7,8 @@ class Vampire
     @pet = pet_attr
   end
 
+  def thirsty?
+    
+  end
+
 end
