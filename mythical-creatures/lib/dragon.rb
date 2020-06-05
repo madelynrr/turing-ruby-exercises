@@ -6,14 +6,19 @@ class Dragon
     @name = name_attr
     @color = color_attr
     @rider = rider_attr
+    @hungry = 0
   end
 
   def hungry?
-    true
+    if @hungry < 3
+      true
+    elsif @hungry == 3
+      false
+    end
   end
 
   def eat
-    
+    @hungry += 1
   end
 
 end
