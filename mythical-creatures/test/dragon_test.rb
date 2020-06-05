@@ -35,7 +35,6 @@ class DragonTest < Minitest::Test
   end
 
   def test_dragons_are_born_hungry
-    skip
     dragon = Dragon.new("Canth", :brown, "F'nor")
     assert dragon.hungry?
   end
