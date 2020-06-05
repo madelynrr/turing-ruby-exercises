@@ -8,7 +8,7 @@ class Vampire
   end
 
   def thirsty?
-    
+    true
   end
 
 end
