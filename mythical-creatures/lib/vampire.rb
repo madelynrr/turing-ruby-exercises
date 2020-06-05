@@ -4,6 +4,7 @@ class Vampire
 
   def initialize(name_attr)
     @name = name_attr
+    @pet = "bat"
   end
 
 end
