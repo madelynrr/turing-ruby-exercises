@@ -2,7 +2,7 @@ class Vampire
 
   attr_reader :name, :pet
 
-  def initialize(name_attr, pet_attr)
+  def initialize(name_attr, pet_attr = "bat")
     @name = name_attr
     @pet = "bat"
   end
