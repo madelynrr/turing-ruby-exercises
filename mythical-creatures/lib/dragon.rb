@@ -12,4 +12,8 @@ class Dragon
     true
   end
 
+  def eat
+    
+  end
+
 end
