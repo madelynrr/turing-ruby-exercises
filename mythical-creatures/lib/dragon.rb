@@ -9,7 +9,7 @@ class Dragon
   end
 
   def hungry?
-    
+    true
   end
 
 end
