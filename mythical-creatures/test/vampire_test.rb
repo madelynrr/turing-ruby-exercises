@@ -20,7 +20,6 @@ class VampireTest < Minitest::Test
   end
 
   def test_it_can_have_other_pets
-    skip
     vampire = Vampire.new("Varney", "fox")
     assert_equal "fox", vampire.pet
   end
