@@ -20,19 +20,16 @@ class DragonTest < Minitest::Test
   end
 
   def test_a_different_dragon
-    skip
     dragon = Dragon.new("Mnementh", :bronze, "F'lar")
     assert_equal "Mnementh", dragon.name
   end
 
   def test_a_different_dragons_rider
-    skip
     dragon = Dragon.new("Mnementh", :bronze, "F'lar")
     assert_equal "F'lar", dragon.rider
   end
 
   def test_a_different_dragons_color
-    skip
     dragon = Dragon.new("Mnementh", :bronze, "F'lar")
     assert_equal :bronze, dragon.color
   end
