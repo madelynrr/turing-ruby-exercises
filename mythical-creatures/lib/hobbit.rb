@@ -20,4 +20,8 @@ class Hobbit
     true if @age >= 101
   end
 
+  def has_ring?
+    
+  end
+
 end
