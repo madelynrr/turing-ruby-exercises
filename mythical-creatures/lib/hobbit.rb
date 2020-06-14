@@ -12,4 +12,8 @@ class Hobbit
     @age += 1
   end
 
+  def adult?
+    
+  end
+
 end
