@@ -13,6 +13,6 @@ class Pirate
   end
 
   def commit_heinous_act
-    # @heinous_acts += 1
+    @heinous_acts += 1
   end
 end
