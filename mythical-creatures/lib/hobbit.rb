@@ -21,7 +21,7 @@ class Hobbit
   end
 
   def has_ring?
-    
+    true if @name == "Frodo"
   end
 
 end
