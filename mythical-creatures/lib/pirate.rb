@@ -4,5 +4,6 @@ class Pirate
 
   def initialize(name_param)
     @name = name_param
+    @job = "Scallywag"
   end
 end
