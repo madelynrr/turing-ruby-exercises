@@ -24,4 +24,8 @@ class Hobbit
     true if @name == "Frodo"
   end
 
+  def is_short?
+    
+  end
+
 end
