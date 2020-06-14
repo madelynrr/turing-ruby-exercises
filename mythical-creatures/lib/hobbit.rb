@@ -25,7 +25,7 @@ class Hobbit
   end
 
   def is_short?
-    
+    true
   end
 
 end
