@@ -1,6 +1,6 @@
 class Pirate
 
-  attr_reader :name, :job
+  attr_reader :name, :job, :booty
 
   def initialize(name_param, job_param = "Scallywag")
     @name = name_param
