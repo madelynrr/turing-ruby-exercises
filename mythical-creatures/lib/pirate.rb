@@ -8,6 +8,10 @@ class Pirate
   end
 
   def cursed?
+
+  end
+
+  def commit_heinous_act
     
   end
 end
