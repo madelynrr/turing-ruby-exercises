@@ -76,9 +76,10 @@ class HobbitTest < Minitest::Test
   end
 
   def test_hobbits_are_short
-    skip
     # create a hobbit
+    hobbit = Hobbit.new("Frodo")
     # check that .is_short? returns true
+    assert hobbit.is_short?
   end
 
 end
