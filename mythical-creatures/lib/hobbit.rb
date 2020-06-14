@@ -1,6 +1,6 @@
 class Hobbit
 
-  attr_reader :name
+  attr_reader :name, :disposition
 
   def initialize(name_param)
     @name = name_param
