@@ -4,6 +4,7 @@ class Hobbit
 
   def initialize(name_param)
     @name = name_param
+    @disposition = "homebody"
   end
 
 end
