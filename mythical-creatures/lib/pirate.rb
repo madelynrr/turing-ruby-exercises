@@ -6,6 +6,7 @@ class Pirate
     @name = name_param
     @job = job_param
     @heinous_acts = 0
+    @booty = 0
   end
 
   def cursed?
