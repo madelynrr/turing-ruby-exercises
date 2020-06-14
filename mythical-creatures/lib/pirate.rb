@@ -6,4 +6,8 @@ class Pirate
     @name = name_param
     @job = job_param
   end
+
+  def cursed?
+    
+  end
 end
