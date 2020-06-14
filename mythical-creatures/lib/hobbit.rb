@@ -16,4 +16,8 @@ class Hobbit
     true if @age >= 33
   end
 
+  def old?
+    
+  end
+
 end
